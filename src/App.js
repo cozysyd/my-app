@@ -32,6 +32,7 @@ function App() {
       <List />
     </div>
   );
+}
 
 function List() {
   <ul>
@@ -48,8 +49,6 @@ function List() {
           )
         })}
     </ul>
-
-}
 
 }
 
