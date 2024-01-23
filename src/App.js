@@ -39,8 +39,15 @@ const list = [
 
 function App() {
   return (
+    <nav className={"navbar navbar-default"}>
     
+    <div className={"container-fluid"}>
+
     <Navbar />
+
+    </div>
+    
+    </nav>
 
   );
 }
