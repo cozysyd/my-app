@@ -29,7 +29,12 @@ function App() {
 
       <hr />
 
-      <ul>
+      <List />
+    </div>
+  );
+
+function List() {
+  <ul>
         {list.map(function(item) {
           return (
             <li key={item.objectID}>
@@ -42,9 +47,10 @@ function App() {
             </li>
           )
         })}
-      </ul>
-    </div>
-  );
+    </ul>
+
+}
+
 }
 
 export default App;
