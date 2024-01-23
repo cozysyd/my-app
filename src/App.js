@@ -47,10 +47,10 @@ function App() {
 
 function Navbar() {
   return (
-    <ul>
+    <ul className={"nav navbar-nav"}>
       {list.map(function(item) {
         return (
-          <li key={item.objectID}>
+          <li key={item.objectID} className={"active"}>
             <span>
               <a href={item.url}>{item.title}</a>
             </span>
